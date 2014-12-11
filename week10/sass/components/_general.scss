@@ -1,0 +1,62 @@
+/*General*/
+/* Google Fonts */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,700,300,600,800,400);
+
+/*Font variables*/  
+$open-sans: 'Open Sans', sans-serif;
+
+body {
+	font-family: $open-sans, serif;
+	padding-top: 20px;
+}
+
+h1 {
+	font-size: 47px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+img {
+	max-width: 100%;
+	box-shadow: .8px .8px 2px #888888;
+}
+
+ul, 
+li {
+	padding-left: 0;
+	list-style-type: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+.main-content {
+	position: relative;
+	top: -215px;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.shadow {
+	box-shadow: .8px .8px 2px #888888;
+}
+
+.col-50 {
+	width: 50%;
+}
+
+.clear:after { 
+   content: " ";
+   display: block; 
+   height: 0; 
+   clear: both;
+}

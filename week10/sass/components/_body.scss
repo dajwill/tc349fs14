@@ -1,0 +1,124 @@
+/*Navigation*/
+nav {
+	display: block;
+}
+
+nav li {
+	display: block;
+	border-radius: 25%;
+}
+
+/*Header*/
+header img{
+	opacity: .15;
+}
+
+ header h2 {
+ 	color: #bbc1c7;
+ }
+
+ header {
+ 	h1, h2, p {
+ 		position: relative;
+ 		top: -450px;
+ 	}
+ }
+
+#about {
+	background: #2b323a;
+/*	background: #647F7D;*/
+	padding: 15px;
+	color: #bbc1c7;
+	text-shadow: none;
+}
+
+#about #work, #project {
+	float: left;
+}
+
+#about #project {
+	padding-left: 35px;
+}
+
+#about p {
+	text-align: left;
+}
+
+#about a {
+	color: white;
+}
+/*Gallery*/
+
+.gallery li{
+	display: inline-block;
+	width: 32%;
+	margin: .4%;
+	vertical-align: top;
+}
+
+.phone { 
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+}
+
+.phone:hover .card {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.card {
+  width: 200px;
+  height: 50px;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: 0.5s;
+  -ms-transform-style: preserve-3d;
+  -ms-transition: 0.5s;
+  -o-transform-style: preserve-3d;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.front {
+  background: #4bc970;
+  color: #ededed;
+  z-index: 10;
+  font-size: 1.5em;
+}
+
+.face {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+}
+
+.back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background: #ededed;
+  font-size: 1.5em;
+}
+
+.back a {
+	color: #666;
+}
+
+/*End Main*/

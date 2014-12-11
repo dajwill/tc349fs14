@@ -1,0 +1,21 @@
+/*Sidebar*/
+.side-wrapper {
+	padding: 2.5px 0;
+	height: 140px;
+	width: 150px;
+	position:fixed;
+	left:0;
+	top:10px;
+	text-shadow: .8px .8px 2px #888888;
+}
+ .side-wrapper img {
+ 	max-width: 120px;
+ 	border-radius: 100%;
+ }
+
+ /*MAIN WRAP*/
+ .main-wrapper {
+ 	margin-left: 150px;
+ 	padding-left: 5px;
+ 	text-shadow: .8px .8px 2px #888888;
+ }

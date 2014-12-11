@@ -1,0 +1,37 @@
+@media (max-width: 1080px){
+	.side-wrapper {
+		width:100%;
+	    position:fixed;
+	    top:0px;
+	    height: auto;
+	    background: #fff;
+	    text-align: left;
+	}
+
+	nav {
+		display: inline-block;
+	}
+
+	.side-wrapper img {
+		max-width: 75px;
+	}
+
+	nav li {
+		display: inline-block;
+	}
+
+	.main-wrapper {
+		margin: 0;
+		margin-top: 50px;
+		padding: 0;
+	}
+}
+
+@media (max-width: 860px) {
+	 header {
+	 	h1, h2, p {
+	 		position: relative;
+	 		top: 450px;
+	 	}
+ 	}
+}
