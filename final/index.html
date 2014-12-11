@@ -1,0 +1,134 @@
+<!doctype html>
+<html>
+<head>
+	<title>Cutting Edge</title>
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/application.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+</head>
+
+<body>
+<header id="top">
+	<div class="center">
+		<h1><a href="#about">Cutting  Edge  Lawncare</a></h1>
+	</div>
+	<div id="phone">
+		<a href="#contact"><h2>Contact Us</h2></a>
+	</div>
+	
+</header>
+
+<div class="wrapper">
+<section class="sticky" id="sidebar">
+<nav>
+	<h2>Cutting Edge</h2>
+	<ul id="nav">
+		<li class="current center"><a href="#about">About</a></li>
+		<li class="center"><a href="#our-work">Our Work</a></li>
+		<li class="center"><a href="#contact">Contact</a></li>
+	</ul>
+</nav>
+</section>
+
+<section class="content-container-1" id="about">
+	<div class="" id="who">
+		<h1>Who we are</h1>
+		
+		<p>At Cutting Edge, we offer dependable and personalized lawn care service to individuals and businesses. We are family owned and operated and we pride ourselves in the personal relationships we develop with our customers. Our goal is for our customers to love their surroundings, knowing they received the highest quality service at a fair price.</p>
+
+		<img src="Lawncare/IMG_1312.jpg">
+
+		<h3>Family owned and operated since 1995</h3>
+	</div>
+</section>
+
+<section class="content-container-2" id="our-work">
+	<div id="what">
+		<div id="services">
+		<h1>Services</h1>
+		<ul>
+			<li>Lawn mowing, edging, trimming</li>
+			<li>Bed maintenance and weeding</li>
+			<li>Landscape installation</li>
+			<li>Tree planting, trimming, pruning</li>
+			<li>Mulch projects including delivery</li>
+			<li>Turf renovation, aeration, sodding</li>
+			<li><h4>Seasonal Services</h4></li>
+			<li>Spring and Fall leaf cleanup</li>
+			<li>Spring and Fall leaf cleanup</li>
+			<li>24-hour snow and ice removal</li>
+		</ul>
+		</div>
+		<div id="gallery">
+		<ul class="bxslider bx-controls-direction">
+			<li><img src="img/Lawncare/IMG_0092.jpg"></li>
+			<li><img src="img/Lawncare/IMG_3130.jpg"></li>
+			<li><img src="img/Lawncare/IMG_0079.jpg"></li>
+			<li><img src="img/Lawncare/IMG_3258.jpg"></li>
+			<li><img src="img/Lawncare/IMG_0076.jpg"></li>
+		</ul>
+		</div>
+	</div>
+</section>
+
+<section class="content-container-1" id="contact">
+	<div id="how">
+
+		<form action="index.html" method="post">
+        
+        <h1>Email</h1>
+        
+        <input type="text" id="name" name="name" placeholder="Your name">
+        <input type="email" id="email" name="mail" placeholder="Your email">
+        <input type="tel" id="tel" name="tel" placeholder="Your number">
+        <textarea id="comment" name="comment" placeholder="How can we help?" rows="8" cols="50"></textarea>
+        <input type="submit" value="Submit">
+        
+      </form>
+
+      <div class="container">
+			<div class="card">
+				<div class="face front">
+					Call
+				</div>
+				<div class="face back">
+					<a href="tel:734-474-6911">734-395-8940</a>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+</section>
+
+
+</div>
+<footer>
+	<div>
+		<p>David Williams &copy 2014</p>
+		<p><a href="http://dajwilliams.com">Dajwilliams.com</a></p>
+	</div>
+</footer>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/myscript.js"></script>
+	<script src="js/jquery.singlePageNav.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+  			$('#nav').onePageNav();
+		});
+    </script>
+    <script src="js/jquery.bxslider.min.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+	    	$('.bxslider').bxSlider({
+			  adaptiveHeight: true,
+			  mode: 'fade',
+			  slideWidth: 560
+			});
+		});
+    </script>
+</body>
+</html>

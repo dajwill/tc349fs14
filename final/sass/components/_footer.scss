@@ -1,0 +1,22 @@
+footer {
+	height: 100vh;
+	position: relative;
+	margin-top: -15px;
+	/*background: url(../img/landscape.jpg) no-repeat center center fixed;*/
+	background: url(../img/Lawncare/IMG_3154.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	z-index: 1;
+	color: #fff;
+	text-align: center;
+}
+
+footer div {
+	padding-top: 10px;
+}
+
+footer p {
+	margin: 0;
+}

@@ -1,0 +1,62 @@
+@media (max-width: 1160px) {
+	.content-container-1,
+	.content-container-2 {
+		min-width: 560px;
+		height: 100vh;
+		min-height: 920px;
+	}
+
+	#services {
+		margin-top: -4%;
+		width: 100%;
+	}
+
+	#services ul li {
+		padding: 1px;
+	}
+
+	#gallery {
+		width: 80%;
+		float: none;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 720px){
+	html {
+		min-width: 420px;
+	}
+
+	.content-container-1,
+	.content-container-2 {
+		width: 100%;
+		min-width: 400px;
+		min-height: 320px;
+		background-color: white;
+	}
+
+	#who, #about {
+		width: 90%;
+		height: 100px;
+	}
+
+	#our-work {
+		margin-top: 50px;
+		height: 490px;
+	}
+
+	#contact {
+		height: 640px;
+	}
+
+	form {
+		max-width: 300px;
+	}
+
+	footer, 
+	.sticky, 
+	#services,
+	#who img {
+		display: none;
+	}
+}

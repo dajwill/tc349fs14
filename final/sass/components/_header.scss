@@ -1,0 +1,45 @@
+header {
+  position: fixed;
+/*  z-index: -1;
+*/}
+
+header div h1 {
+  font-family: 'Pacifico', cursive;
+  display: block;
+  height: 25%;
+  font-size: 3em;
+  margin: auto;
+  padding-top: 140px;
+  text-shadow: .8px .8px 2px #888888;
+  color: #fff;
+}
+
+header div h1:hover {
+  color: #dedede;
+}
+
+#phone {
+  display: block;
+  width: 150px;
+  margin: 10px auto;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+#phone a:hover {
+  color: #dedede;
+  border-color: #dedede;
+}
+
+#top{
+  height: 100vh;
+  position: relative;
+  /*background: url(../img/landscape.jpg) no-repeat center center fixed;*/
+  background: url(../img/Lawncare/IMG_3154.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}

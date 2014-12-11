@@ -1,0 +1,471 @@
+/* line 1, ../sass/components/_general.scss */
+html {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+/* line 5, ../sass/components/_general.scss */
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* line 10, ../sass/components/_general.scss */
+ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+/* line 15, ../sass/components/_general.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 19, ../sass/components/_general.scss */
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* line 1, ../sass/components/_header.scss */
+header {
+  position: fixed;
+  /*  z-index: -1;
+  */
+}
+
+/* line 6, ../sass/components/_header.scss */
+header div h1 {
+  font-family: 'Pacifico', cursive;
+  display: block;
+  height: 25%;
+  font-size: 3em;
+  margin: auto;
+  padding-top: 140px;
+  text-shadow: .8px .8px 2px #888888;
+  color: #fff;
+}
+
+/* line 17, ../sass/components/_header.scss */
+header div h1:hover {
+  color: #dedede;
+}
+
+/* line 21, ../sass/components/_header.scss */
+#phone {
+  display: block;
+  width: 150px;
+  margin: 10px auto;
+  color: #fff;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 2px;
+}
+
+/* line 31, ../sass/components/_header.scss */
+#phone a:hover {
+  color: #dedede;
+  border-color: #dedede;
+}
+
+/* line 36, ../sass/components/_header.scss */
+#top {
+  height: 100vh;
+  position: relative;
+  /*background: url(../img/landscape.jpg) no-repeat center center fixed;*/
+  background: url(../img/Lawncare/IMG_3154.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 1, ../sass/components/_sidebar-nav.scss */
+#sidebar {
+  height: 100vh;
+  width: 15%;
+  margin-left: 2.5%;
+  margin-right: 1.75%;
+  float: left;
+}
+
+/* line 9, ../sass/components/_sidebar-nav.scss */
+#sidebar h2 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  text-shadow: .8px .8px 2px #888888;
+}
+
+/* line 15, ../sass/components/_sidebar-nav.scss */
+#nav {
+  margin: 25% auto;
+  height: 50%;
+  width: 80%;
+}
+
+/* line 21, ../sass/components/_sidebar-nav.scss */
+#nav li {
+  text-decoration: none;
+  font-size: 1.2em;
+  font-size: 100%;
+  margin-bottom: 2px;
+}
+
+/* line 27, ../sass/components/_sidebar-nav.scss */
+#nav a {
+  background: #ededed;
+  color: #666;
+  display: block;
+  font-size: 1.2em;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* line 36, ../sass/components/_sidebar-nav.scss */
+#nav a:hover {
+  background: #dedede;
+}
+
+/* line 39, ../sass/components/_sidebar-nav.scss */
+#nav .current a {
+  background: #666;
+  color: #ededed;
+}
+
+/* line 1, ../sass/components/_body.scss */
+.wrapper {
+  -webkit-box-shadow: 0px -7px 50px 0.8px #3d313d;
+  -moz-box-shadow: 0px -7px 50px 0.8px #3d313d;
+  box-shadow: 0px -7px 50px 0.8px #3d313d;
+  overflow: hidden;
+  z-index: 2;
+}
+
+/* line 10, ../sass/components/_body.scss */
+.content-container-1,
+.content-container-2 {
+  height: 100vh;
+  min-height: 640px;
+  width: 76.75%;
+  min-width: 890px;
+  margin-right: 2.5%;
+  float: right;
+}
+
+/* line 19, ../sass/components/_body.scss */
+.content-container-2 {
+  background-color: #e8eeef;
+}
+
+/* line 1, ../sass/components/_about.scss */
+#who {
+  height: 100%;
+  width: 50%;
+  margin: 20px auto;
+}
+
+/* line 7, ../sass/components/_about.scss */
+#who h1, h3 {
+  text-align: center;
+}
+
+/* line 11, ../sass/components/_about.scss */
+#who p {
+  font-size: 1.5em;
+}
+
+/* line 15, ../sass/components/_about.scss */
+#who img {
+  max-height: 250px;
+  display: block;
+  margin: auto;
+}
+
+/* line 1, ../sass/components/_our-work.scss */
+#what {
+  width: 100%;
+  margin: 25px auto;
+  text-align: center;
+}
+
+/* line 7, ../sass/components/_our-work.scss */
+#services {
+  width: 30%;
+  margin-left: 2.5%;
+  float: left;
+}
+
+/* line 13, ../sass/components/_our-work.scss */
+#what ul {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* line 19, ../sass/components/_our-work.scss */
+#what ul li {
+  font-size: 1.2em;
+  padding: 2.5px 0;
+}
+
+/* line 24, ../sass/components/_our-work.scss */
+#gallery {
+  width: 67.5%;
+  float: right;
+  margin-top: 8%;
+}
+
+/* line 1, ../sass/components/_contact-form.scss */
+form {
+  max-width: 400px;
+  margin: 15px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+/* line 9, ../sass/components/_contact-form.scss */
+form h1 {
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+/* line 17, ../sass/components/_contact-form.scss */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+  display: block;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0 auto;
+  outline: 0;
+  padding: 15px;
+  padding-left: 50px;
+  width: 80%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 15px;
+}
+
+/* line 34, ../sass/components/_contact-form.scss */
+input[type="submit"] {
+  padding: 10px 20px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 5px;
+}
+
+/* line 49, ../sass/components/_contact-form.scss */
+#name {
+  background-image: url(../img/user.png);
+  background-size: 30px 30px;
+  background-position: 4%;
+  background-repeat: no-repeat;
+}
+
+/* line 56, ../sass/components/_contact-form.scss */
+#email {
+  background-image: url(../img/envelope.png);
+  background-size: 30px 30px;
+  background-position: 4%;
+  background-repeat: no-repeat;
+}
+
+/* line 63, ../sass/components/_contact-form.scss */
+#tel {
+  background-image: url(../img/phone.png);
+  background-size: 30px 30px;
+  background-position: 4%;
+  background-repeat: no-repeat;
+}
+
+/* line 70, ../sass/components/_contact-form.scss */
+#comment {
+  background-image: url(../img/pencil.png);
+  background-size: 30px 30px;
+  background-position: 4% 4%;
+  background-repeat: no-repeat;
+}
+
+/* line 77, ../sass/components/_contact-form.scss */
+.container {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+}
+
+/* line 83, ../sass/components/_contact-form.scss */
+.container:hover .card {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+/* line 91, ../sass/components/_contact-form.scss */
+.card {
+  width: 200px;
+  height: 50px;
+  position: relative;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: 0.5s;
+  -moz-transform-style: preserve-3d;
+  -moz-transition: 0.5s;
+  -ms-transform-style: preserve-3d;
+  -ms-transition: 0.5s;
+  -o-transform-style: preserve-3d;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+/* line 106, ../sass/components/_contact-form.scss */
+.front {
+  background: #4bc970;
+  color: #ededed;
+  z-index: 10;
+  font-size: 1.5em;
+}
+
+/* line 113, ../sass/components/_contact-form.scss */
+.face {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  line-height: 50px;
+  text-align: center;
+}
+
+/* line 128, ../sass/components/_contact-form.scss */
+.back {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background: #ededed;
+  font-size: 1.5em;
+}
+
+/* line 138, ../sass/components/_contact-form.scss */
+.back a {
+  color: #666;
+}
+
+/* line 1, ../sass/components/_footer.scss */
+footer {
+  height: 100vh;
+  position: relative;
+  margin-top: -15px;
+  /*background: url(../img/landscape.jpg) no-repeat center center fixed;*/
+  background: url(../img/Lawncare/IMG_3154.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 16, ../sass/components/_footer.scss */
+footer div {
+  padding-top: 10px;
+}
+
+/* line 20, ../sass/components/_footer.scss */
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 1160px) {
+  /* line 3, ../sass/components/_media-queries.scss */
+  .content-container-1,
+  .content-container-2 {
+    min-width: 560px;
+    height: 100vh;
+    min-height: 920px;
+  }
+
+  /* line 9, ../sass/components/_media-queries.scss */
+  #services {
+    margin-top: -4%;
+    width: 100%;
+  }
+
+  /* line 14, ../sass/components/_media-queries.scss */
+  #services ul li {
+    padding: 1px;
+  }
+
+  /* line 18, ../sass/components/_media-queries.scss */
+  #gallery {
+    width: 80%;
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 720px) {
+  /* line 26, ../sass/components/_media-queries.scss */
+  html {
+    min-width: 420px;
+  }
+
+  /* line 31, ../sass/components/_media-queries.scss */
+  .content-container-1,
+  .content-container-2 {
+    width: 100%;
+    min-width: 400px;
+    min-height: 320px;
+    background-color: white;
+  }
+
+  /* line 38, ../sass/components/_media-queries.scss */
+  #who, #about {
+    width: 90%;
+    height: 100px;
+  }
+
+  /* line 43, ../sass/components/_media-queries.scss */
+  #our-work {
+    margin-top: 50px;
+    height: 490px;
+  }
+
+  /* line 48, ../sass/components/_media-queries.scss */
+  #contact {
+    height: 640px;
+  }
+
+  /* line 52, ../sass/components/_media-queries.scss */
+  form {
+    max-width: 300px;
+  }
+
+  /* line 59, ../sass/components/_media-queries.scss */
+  footer,
+  .sticky,
+  #services,
+  #who img {
+    display: none;
+  }
+}

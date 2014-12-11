@@ -1,0 +1,21 @@
+.wrapper {
+	-webkit-box-shadow: 0px -7px 50px .8px rgba(61,49,61,1);
+	-moz-box-shadow: 0px -7px 50px .8px rgba(61,49,61,1);
+	box-shadow: 0px -7px 50px .8px rgba(61,49,61,1);
+	overflow: hidden;
+	z-index: 2;
+}
+
+.content-container-1,
+.content-container-2 {
+	height: 100vh;
+	min-height: 640px;
+	width: 76.75%;
+	min-width: 890px;
+	margin-right: 2.5%;
+	float: right;
+}
+
+.content-container-2 {
+	background-color: #e8eeef;
+}
